@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algosharp.Sorting", "src\Algosharp.Sorting\Algosharp.Sorting.csproj", "{04E58FFB-5654-4506-BCFB-ADDC532E3F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algosharp.Sorting.Tests", "tests\Algosharp.Sorting.Tests\Algosharp.Sorting.Tests.csproj", "{747CF56B-B2ED-47A0-8398-145ADF9260D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{837D93B0-D728-41AA-9305-B204213E20B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04E58FFB-5654-4506-BCFB-ADDC532E3F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E58FFB-5654-4506-BCFB-ADDC532E3F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E58FFB-5654-4506-BCFB-ADDC532E3F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E58FFB-5654-4506-BCFB-ADDC532E3F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747CF56B-B2ED-47A0-8398-145ADF9260D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747CF56B-B2ED-47A0-8398-145ADF9260D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747CF56B-B2ED-47A0-8398-145ADF9260D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747CF56B-B2ED-47A0-8398-145ADF9260D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{747CF56B-B2ED-47A0-8398-145ADF9260D5} = {837D93B0-D728-41AA-9305-B204213E20B0}
+	EndGlobalSection
+EndGlobal
