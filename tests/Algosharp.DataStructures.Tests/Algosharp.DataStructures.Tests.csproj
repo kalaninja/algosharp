@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{747CF56B-B2ED-47A0-8398-145ADF9260D5}</ProjectGuid>
+    <ProjectGuid>{80976CF0-EB03-408F-B791-3FD73A68BB12}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Algosharp.Sorting.Tests</RootNamespace>
-    <AssemblyName>Algosharp.Sorting.Tests</AssemblyName>
+    <RootNamespace>Algosharp.DataStructures.Tests</RootNamespace>
+    <AssemblyName>Algosharp.DataStructures.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -57,15 +56,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ComparisonSortsTests.cs" />
-    <Compile Include="Helpers\AssertHelper.cs" />
+    <Compile Include="Heaps\BinaryHeapTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SortTestsBase.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Algosharp.Sorting\Algosharp.Sorting.csproj">
-      <Project>{04E58FFB-5654-4506-BCFB-ADDC532E3F68}</Project>
-      <Name>Algosharp.Sorting</Name>
+    <ProjectReference Include="..\..\src\Algosharp.DataStructures\Algosharp.DataStructures.csproj">
+      <Project>{7BE6CD18-323D-427C-8434-FD8D70267556}</Project>
+      <Name>Algosharp.DataStructures</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
